@@ -1,0 +1,29 @@
+.bg{
+   
+}
+h1{
+    font-family: cursive;
+    font-size: 200%;
+    color: #bfbfbf;
+}
+
+body{
+    background-image: url(resources/img/newre(1).jpg); 
+    
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    
+   
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+*{
+   padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}

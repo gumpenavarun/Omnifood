@@ -1,0 +1,100 @@
+/*---this is basically for large screens 768px to 1023px--*/
+@media only  screen and (max-width: 1200px){
+    .hero-text-box{
+    
+    width: 100%;
+    padding: 0 2%;    
+    
+    }
+    
+    .row{
+        padding: 0 2%;
+    }
+
+    
+}
+
+
+
+/*---this is for small tablets to large tablets 768px to 1023px--*/
+
+@media only  screen and (max-width: 1023px){
+    
+    body{
+        font-size: 18px;}
+    section{padding: 60px 0;}
+    
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .steps-box{margin-top: 10px;}
+    .works-steps{margin-top: 10px;}
+    .works-step:last-of-type{margin-bottom: 60px;}
+    .step-box:last-child{padding-left: 3%;}
+    .app-screen{width: 50%;margin-right: 5px;}
+    .icon-small{widows: 17px;}
+    .city-feature{font-size: 90%;}
+    .plan-box{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .plan-price{font-size: 250%;}
+    .contact-form{width:80%;}
+    
+
+}
+
+
+/*-----small phones to small tablets--481px to 767px---*/
+
+@media only  screen and (max-width: 767px){
+    
+    body{font-size: 16px;}
+    section{padding: 30px 0;}
+    .row,
+    .hero-text-box{padding: 0 4px;}
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+
+    }
+    .main-nav{ display:none; }
+    .long-copy{
+        width: 100%;
+        margin-left: 0%;
+    }
+    h1{font-size: 180%;}
+    h2{font-size: 150%;}
+    
+    .works-step{margin-bottom: 20px;}
+    .works-step:last-of-type{margin-bottom: 20px;}
+    
+    .works-step div{
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+    
+    .app-screen {width: 40px;}
+    .steps-box:first-child{
+    text-align: center;
+        
+    
+}
+
+
+
+/*----small phones screen size for 0 to 480px----*/
+
+@media only  screen and (max-width: 480px){
+    
+    section{padding:25px 0;}
+    .contact-form{width:100%;
+    }
+    
+}
+
